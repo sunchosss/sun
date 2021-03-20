@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab";
+}
+
+.container {
+    display: block;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.site-header {
+    min-height: 700px;
+    background-color: #232323;
+    padding-top: 55px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 63px;
+}
+
+.site-menu {
+    display: flex;
+    margin-right: 520px;
+}
+
+.site-menu li {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.site-menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    text-align: left;
+    color: #d4d4d4;
+}
+
+.contacts-menu {
+    display: flex;
+}
+
+.contacts-menu li {
+    list-style: none;
+}
+
+.contacts-menu li:first-child {
+    margin-right: 24px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.about-us h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+.sub {
+    margin-top: 54px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #d4d4d4;
+}
+
+.button {
+    display: block;
+    width: 240px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 58px;
+    padding-left: 27px;
+    background:#f2cb2e;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:700;
+    text-align:left;
+    color:#222;
+    outline:0
+}
+
+.features {
+    min-height: 328px;
+    background-color: #131313;
+    padding-top: 85px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-list li {
+    list-style: none;
+}
+
+.features-list li div {
+    margin-top: 39px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #d4d4d4;
+}
+
+.moon {
+    min-height: 800px;
+    padding-top: 83px;
+}
+
+.left-column div {
+    margin-top: 83px;
+}
+
+.moon-header {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.first-moon-list {
+    margin-top: 40px;
+}
+
+.first-moon-list li {
+    margin-top: 20px;
+    color: yellow;
+}
+
+.first-moon-list li span {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.moon .container {
+    display: flex;
+}
+
+.left-column {
+    margin-right: 75px;
+}
+
+.second-moon-list {
+    margin-top: 35px;
+}
+
+.second-moon-list li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.right-column div:last-child {
+    margin-top: 85px;
+}
+
+.site-footer {
+    min-height: 348px;
+    background-color: #131313;
+    padding-top: 60px;
+}
+
+.container-footer-column {
+    display: flex;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+.left-footer-column {
+    margin-right: 120px;
+}
+
+.left-footer-column img {
+    margin-right: 24px;
+}
+
+.logo-title {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d4d4d4;
+  
+}
+
+.footer-submenu {
+    margin-top: 111px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: #555555;
+}
+
+.right-footer-column .footer-list{
+    display: flex;
+    align-items: center;
+}
+
+.footer-list .footer-element {
+    padding-top: 14px;
+    margin-right: 140px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-list .footer-element:after {
+    content: "";
+    display: block;
+    margin-top: 18px;
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: rgba(85, 85, 85, 0.3);
+}
+
+.footer-element ul {
+    margin-top: 47px;
+    position: absolute;
+}
+
+.footer-element ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-element ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: #888888;
+}
